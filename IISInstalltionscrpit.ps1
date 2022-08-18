@@ -29,7 +29,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationInit
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIExtensions
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIFilter
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-IIS-URLAuthorization
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-URLAuthorization
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-URLAuthorization
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementService
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WMICompatibility
@@ -44,6 +44,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionDynamic
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-IPSecurity
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-IISCertificateMappingAuthentication
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-Web-Asp-Net
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-CustomLogging
 
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
 
